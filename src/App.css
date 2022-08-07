@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+
+:root{
+  --primary-color:rgb(79, 101, 246);
+  --white-color:#ffffff;
+  --primary-hover:#2349f1;
+  --light-grey:#f3f4f6;
+  --normal-grey:#d1d5db;
+}

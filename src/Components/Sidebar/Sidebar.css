@@ -1,0 +1,10 @@
+.list{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.list-itmes{
+    margin-left: 2rem;
+    width: 150px;
+    border-right:1px solid var(--normal-grey);
+}
+

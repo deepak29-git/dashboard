@@ -1,0 +1,15 @@
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.userdetails-container{
+    margin-left: auto;
+    padding-right: 2rem;
+}

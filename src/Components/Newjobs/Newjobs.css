@@ -1,0 +1,13 @@
+.new-jobs-section{
+    border: 1px solid var(--normal-grey);
+    padding: 1rem;
+}
+.job-details-container{
+    display: flex;
+    gap: 1rem;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

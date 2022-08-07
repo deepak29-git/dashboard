@@ -1,0 +1,16 @@
+.overview-container{
+    border: 1px solid var(--normal-grey);
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+.inner-section{
+    padding: 1rem;
+    display: flex;
+}
+
+.profile,.job,.mentor,.skill{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--light-grey);
+}

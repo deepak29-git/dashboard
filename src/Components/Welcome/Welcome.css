@@ -1,0 +1,30 @@
+.sign-in-btn{
+    background-color:var(--primary-color);
+    padding: 0.5rem 3rem;
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover{
+    background-color: var(--primary-hover);
+}
+.welcome-container{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 4rem;
+}
+
+.welcome-text{
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.graphic{
+    height: 500px;
+    width: 500px;
+}
+
