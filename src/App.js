@@ -15,7 +15,8 @@ function App() {
        <Navbar/>
      <div className='flex-container'> 
       <Routes>
-      <Route path="/home" element={<PrivateRoute><DashBoard/></PrivateRoute>}/>
+        <Route path="/" element={!user?<Welcome/>:<PrivateRoute><DashBoard/></PrivateRoute>}/>
+      {user&&<Route path="/home" element={<PrivateRoute><DashBoard/></PrivateRoute>}/>}
         <Route path="/signin" element={!user?<Welcome/>:<PrivateRoute><DashBoard/></PrivateRoute>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
