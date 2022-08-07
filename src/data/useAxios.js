@@ -5,6 +5,7 @@ export const useAxios=(url)=>{
     const [loading,setLoading]=useState(false)
     const [data,setData]=useState([]);
     const [error,setError]=useState("")
+    
     useEffect(()=>{
         (async()=>{
             setLoading(true)
